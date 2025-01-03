@@ -1,0 +1,22 @@
+
+<div style="text-align: center;" class="product-detail" >
+
+    <h3>Product Detials </h3>
+
+        <p > Product Name : {{product?.productName}} </p>
+
+        <p> Price : $ {{product?.productPrice}}</p> 
+        
+        <p> Description : {{ product?.productDescription}} </p>
+        
+        <p>
+            Product Status: {{ product?.productStatus }}
+          </p>
+            
+        
+        <button class="back-button" type="submit" class="btn btn-secondary" [routerLink]="['/home']" routerLinkActive="active">
+             Back
+        </button>           
+    </div>
+
+<router-outlet></router-outlet> 

@@ -1,0 +1,10 @@
+[*.cs]
+
+# IDE0210: Convert to top-level statements
+dotnet_diagnostic.IDE0210.severity = silent
+
+# ASP0014: Suggest using top level route registrations
+dotnet_diagnostic.ASP0014.severity = silent
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = silent

@@ -1,0 +1,14 @@
+<h1 style="text-align: center;"> Welcome to {{title}} App !</h1>
+<div class="add-text-style">
+  <nav class="d-flex justify-content-left gap-3 mt-4">
+    
+      <button  type="submit" class="btn btn-primary" [routerLink]="['/home']" routerLinkActive="active">
+          Home
+      </button>
+      <button  type="submit" class="btn btn-primary" [routerLink]="['/AddProduct']" routerLinkActive="active">
+        Add Product
+      </button>
+    
+  </nav>
+</div>
+<router-outlet></router-outlet>

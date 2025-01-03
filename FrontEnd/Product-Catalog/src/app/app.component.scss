@@ -1,0 +1,17 @@
+.nav-link {
+    margin-right: 15px;  /* Adds space to the right of each link */
+    text-decoration: none; 
+    text-align: center;
+    font-size: 50px; /* Optional: Removes the default underline */
+  }
+  
+  /* Remove margin from the last link to avoid extra spacing */
+  .nav-link:last-child {
+    margin-right: 0;
+
+  }
+
+  .add-text-style{
+    margin-inline-start: 60px;
+    
+}

@@ -1,0 +1,5 @@
+{
+  "dotnet-test-explorer.testProjectPath": "**/*Test.csproj",
+  "dotnet-test-explorer.testFramework": "NUnit",
+  "dotnet.testSdkVersion": "17.12.0"
+}

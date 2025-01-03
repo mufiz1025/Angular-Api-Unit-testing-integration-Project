@@ -1,0 +1,8 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- Set MSBuildProjectExtensionsPath early in the build process -->
+    <MSBuildProjectExtensionsPath>$(SolutionDir)\.build\</MSBuildProjectExtensionsPath>
+    <!-- Set BaseIntermediateOutputPath -->
+    <BaseIntermediateOutputPath>$(SolutionDir)\.intermediate\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>
